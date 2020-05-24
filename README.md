@@ -10,8 +10,8 @@
   |键|值|
   |:-|:-|
   |HKEY_CLASSES_ROOT\Directory\shell\MenuWindowsTerminal<br/> HKEY_CLASSES_ROOT\Directory\background\shell\MenuWindowsTerminal<br/> HKEY_CLASSES_ROOT\Directory\LibraryFolder\shell\MenuWindowsTerminal<br/> HKEY_CLASSES_ROOT\Drive\shell\MenuWindowsTerminal<br/> HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\MenuWindowsTerminal|"MUIVerb"="%右键名称%"<br/>"Icon"="%LOCALAPPDATA%\wtRightClick\terminal.ico"<br/>"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuWindowsTerminal"|
-  |HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminal\shell\%i%-%name%|"MUIVerb"="%配置别名%"<br/>"ExtendedSubCommandsKey"=-<br/>"Icon"="%配置图标%"|
-  |HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminal\shell\%i%-%name%\command|@="$(where wt.exe) -p \"%配置名%\" -d \"%V.\""|
+  |HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminal\shell\\%i%-%name%|"MUIVerb"="%配置别名%"<br/>"ExtendedSubCommandsKey"=-<br/>"Icon"="%配置图标%"|
+  |HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminal\shell\\%i%-%name%\command|@="$(where wt.exe) -p \"%配置名%\" -d \"%V.\""|
 
 
 ## 十亿个为什么？
